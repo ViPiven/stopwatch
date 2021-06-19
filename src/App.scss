@@ -1,0 +1,70 @@
+body {
+  background-color: #282c34;
+}
+
+.App {
+  margin-top: 200px;
+}
+
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__value {
+    color: #61dafb;
+  }
+}
+
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  &__start {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  &__stop {
+    background-color: #ff000c;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  &__wait {
+    background-color: #d900ff;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  &__reset {
+    background-color: #0066ff;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+}
